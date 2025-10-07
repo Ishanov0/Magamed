@@ -1,0 +1,155 @@
+body{
+    /* ширина */
+    width: 1200px;  
+    /* Внешний отступ */
+    margin: auto;    
+}
+
+
+.header{
+    /* Расположение по горизонтали */
+    display: flex;
+    /* Центирирование по вертикали */
+    align-items: center;
+    /* Расположить по ширине блока */
+    justify-content: space-between;
+    /* Внешний отступ сверху */
+    margin-top: 40px;
+}
+
+
+
+.ask-btn{
+    /* Цвет фона кнопки */
+    background-color: #33836e;
+    /* Обводка */
+    border: none;
+    /* Скругление углов */
+    border-radius: 10px;
+    /* Внутренний отступ считаем против часовой стрелки */
+    padding: 10px 20px;
+    /* Цвет шрифта */
+    color: white;
+    /* Размер шрифта */
+    font-size: 16px;
+}
+
+.contact-info{
+    color: gray;
+
+}
+
+
+.phone-number{
+    /* Сила начертания - жирность */
+    font-weight: bold;
+    font-size: 18px;
+    /* Расположение по вертикали */
+    display: block;
+
+}
+
+.input{
+    width: 427px;
+    border: none;
+    font-size: 16px; 
+    background-color: #2F2B430A;
+    font-size: 16px;
+    color: gray;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.menu{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    /* расстояние между обьектами */
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.menu-border{
+    border: 1px solid gray;
+    
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.content {
+    max-width: 1100px;
+    margin-top:40px;
+}
+.bread {
+    font-size: 16px;
+    color: rgb(99, 96, 96);
+    margin-bottom: 20px;
+}
+.hero {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+/* .help-text {
+    max-width: 600px;
+} */
+/* .qwn {
+    background-color: #33836E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 4px;
+} */
+.phone {
+    color: #00551e;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.features {
+   
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.image img {
+
+    width: 377px;
+    height: 402px;
+}
+
+.question{
+    color: #00551e;
+    display: flex;
+    gap: 30px;
+}
+.bread{
+    font-size: 16px;
+    color: rgb(99, 96, 96);
+    margin-bottom: 20px;
+}
+
+.legal-help{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.nurik{
+    margin-top: 40px;
+    
+
+}
+.text{
+    color: #00551e;
+}
